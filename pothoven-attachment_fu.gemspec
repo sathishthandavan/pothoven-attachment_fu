@@ -5,11 +5,7 @@ Gem::Specification.new do |s|
   s.summary     = "Some modification for pothoven-attachment_fu gem to support rails 2.3"
   s.authors     = ["Rick Olson", "Steven Pothoven","Quyen Nguyen"]
   s.email       = 'nttqa22001@yahoo.com'
-  s.files       = ["lib/pothoven-attachment_fu.rb",  		  
-  		   "LICENSE",
-  		   "README.rdoc",
-  		   "CHANGELOG",
-  		   "pothoven-attachment_fu.gemspec"]
+  s.files       = `git ls-files`.split("\n")
   s.homepage    = 'https://github.com/quyen/pothoven-attachment_fu'
   s.require_paths = ["lib"]
 end
