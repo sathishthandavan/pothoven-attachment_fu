@@ -1,6 +1,6 @@
 #class Engine < Rails::Engine
   # Mimic old vendored plugin behavior, attachment_fu/lib is autoloaded.
-  ActiveSupport::Dependencies.autoload_paths << File.expand_path("..", __FILE__)
+ # ActiveSupport::Dependencies.autoload_paths << File.expand_path("..", __FILE__)
   	
   #initializer "attachment_fu" do
     require 'geometry'
